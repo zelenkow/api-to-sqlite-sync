@@ -26,3 +26,9 @@
 - Leanne Graham: 10 posts
 - Ervin Howell: 10 posts
 - Clementine Bauch: 10 posts
+
+## Запуск
+- `curl -LsSf https://astral.sh/uv/install.sh | sh` - (установка uv)
+- `uv sync` - (зависимости)
+- `uv run python solution.py` - (запуск)
+- `uv run pytest -v` - (тесты)
